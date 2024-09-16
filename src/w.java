@@ -6,6 +6,7 @@ public class w{
         int userinput;
         int base1;
         int base2;
+        int x = 0;
         System.out.print("What is the base of your number: ");
         base1 = scan.nextInt();
         scan.next();
@@ -21,6 +22,8 @@ public class w{
         //convert userinput into a list by using mod 10, then starting from the end of the list using nested for loops convert to base 10, then again using nested for loops for division
         ArrayList<Integer> number = new ArrayList<>();
         while (userinput > 0) {
+            x++;
+            number.add(x)
 
         }
 
