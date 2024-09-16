@@ -20,7 +20,9 @@ public class w{
         scan.nextLine();
         //convert userinput into a list by using mod 10, then starting from the end of the list using nested for loops convert to base 10, then again using nested for loops for division
         ArrayList<Integer> number = new ArrayList<>();
-        for ()
+        while (userinput > 0) {
+
+        }
 
     }
 }
