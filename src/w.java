@@ -22,8 +22,9 @@ public class w{
         //convert userinput into a list by using mod 10, then starting from the end of the list using nested for loops convert to base 10, then again using nested for loops for division
         ArrayList<Integer> number = new ArrayList<>();
         while (userinput > 0) {
-            x++;
-            number.add(x)
+            x++; // adds the new number at the front
+            number.add(x, userinput % 10);
+            userinput = userinput/ 10;
 
         }
 
